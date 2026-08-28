@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Capital IA — Políticas públicas e inteligencia artificial</title>
+  <title>Capital IA — Política pública, economía y sociedad</title>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
@@ -297,6 +297,14 @@
       background: rgba(245,242,235,0.1);
     }
 
+    .informe-eje-label {
+      margin-top: 5rem;
+    }
+
+    .informe-eje-label:first-of-type {
+      margin-top: 0;
+    }
+
     .section-title {
       font-family: 'Fraunces', serif;
       font-size: clamp(2rem, 4vw, 3.5rem);
@@ -309,7 +317,7 @@
     /* CARDS */
     .cards {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 1px;
       background: rgba(245,242,235,0.08);
     }
@@ -752,7 +760,7 @@
         Capital<br><span class="ia">IA</span>
       </h1>
       <p class="hero-subtitle fade-in">
-        Políticas públicas e<br>inteligencia artificial
+        Política pública,<br>economía y sociedad
       </p>
       <div class="hero-cta fade-in">
         <a href="#informes" class="btn-primary">Ver informes</a>
@@ -780,7 +788,9 @@
       <span class="ticker-item ticker-sep">·</span>
       <span class="ticker-item">Sesiones legislativas</span>
       <span class="ticker-item ticker-sep">·</span>
-      <span class="ticker-item">Políticas públicas</span>
+      <span class="ticker-item">Economía y sociedad</span>
+      <span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Seguridad</span>
       <span class="ticker-item ticker-sep">·</span>
       <span class="ticker-item">Ciudad inteligente</span>
       <span class="ticker-item ticker-sep">·</span>
@@ -797,7 +807,9 @@
       <span class="ticker-item ticker-sep">·</span>
       <span class="ticker-item">Sesiones legislativas</span>
       <span class="ticker-item ticker-sep">·</span>
-      <span class="ticker-item">Políticas públicas</span>
+      <span class="ticker-item">Economía y sociedad</span>
+      <span class="ticker-item ticker-sep">·</span>
+      <span class="ticker-item">Seguridad</span>
       <span class="ticker-item ticker-sep">·</span>
       <span class="ticker-item">Ciudad inteligente</span>
       <span class="ticker-item ticker-sep">·</span>
@@ -829,7 +841,7 @@
   <!-- QUÉ HACEMOS -->
   <div class="section" id="que-hacemos">
     <div class="section-label">Qué hacemos</div>
-    <h2 class="section-title">Analizamos el gobierno local con herramientas de IA</h2>
+    <h2 class="section-title">Analizamos el gobierno local y cómo eso se traduce en la vida de la ciudad</h2>
     <div class="cards">
       <div class="card">
         <div class="card-number">01</div>
@@ -840,14 +852,20 @@
       <div class="card">
         <div class="card-number">02</div>
         <span class="card-icon">📋</span>
-        <h3 class="card-title">Ordenanzas y normativa</h3>
-        <p class="card-desc">Evaluamos ordenanzas con IA para detectar contradicciones, impacto ciudadano y coherencia con políticas provinciales y nacionales.</p>
+        <h3 class="card-title">Ordenanzas y presupuesto</h3>
+        <p class="card-desc">Evaluamos ordenanzas, presupuesto y rendición de cuentas con IA para entender en qué se gastan sus impuestos.</p>
       </div>
       <div class="card">
         <div class="card-number">03</div>
+        <span class="card-icon">📈</span>
+        <h3 class="card-title">Economía y sociedad</h3>
+        <p class="card-desc">Relevamos indicadores que hacen a la vida cotidiana de la ciudad — mercado inmobiliario, actividad comercial, seguridad — sin evaluar gestiones puntuales.</p>
+      </div>
+      <div class="card">
+        <div class="card-number">04</div>
         <span class="card-icon">📊</span>
-        <h3 class="card-title">Informes de gestión</h3>
-        <p class="card-desc">Generamos reportes periódicos sobre el estado de las políticas públicas locales, comparados con otras ciudades y estándares internacionales.</p>
+        <h3 class="card-title">Informes periódicos</h3>
+        <p class="card-desc">Generamos reportes sobre el estado de las políticas públicas y los indicadores locales, comparados en el tiempo y con otros municipios.</p>
       </div>
     </div>
   </div>
@@ -867,6 +885,8 @@
   <!-- INFORMES -->
   <div class="informe-section" id="informes">
     <div class="section-label">Informes</div>
+
+    <div class="section-label informe-eje-label" id="informes-institucional">Concejo &amp; Presupuesto</div>
 
     <div class="informe-card" style="margin-top:1px">
       <div class="informe-meta">
@@ -897,6 +917,8 @@
         <a href="informe-ordenanza-impositiva-2026.html" class="informe-link">Leer informe completo →</a>
       </div>
     </div>
+
+    <div class="section-label informe-eje-label" id="informes-economia-sociedad">Economía y Sociedad</div>
 
     <div class="informe-card" style="margin-top:1px">
       <div class="informe-meta">
@@ -948,7 +970,7 @@
     <div class="footer-logo">Capital <span>IA</span></div>
     <div class="footer-info">
       La Plata · Capital de la Provincia de Buenos Aires<br>
-      Políticas públicas e inteligencia artificial<br>
+      Política pública, economía y sociedad<br>
       <span style="color: var(--acento); font-size: 0.55rem;">@capital.ia</span>
     </div>
   </footer>
