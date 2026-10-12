@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Capital IA · Mapa del delito — Provincia de Buenos Aires</title>
+<title>Capital Data · Mapa del delito — Provincia de Buenos Aires</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <!-- Sin dependencia de fonts.googleapis.com: usamos pilas de fuentes del sistema
@@ -197,7 +197,7 @@
 </head>
 <body>
 <nav style="background:#0a0a0a;padding:.75rem 1.5rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(245,242,235,.08);position:fixed;top:0;left:0;right:0;z-index:9999">  <a href="index.html" style="font-family:'SF Mono',monospace;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:#c8ff00;text-decoration:none;display:flex;align-items:center;gap:.5rem"><span style="display:inline-flex;align-items:center;width:22px;height:22px;flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 48 48" role="img">
-<title>Capital IA</title>
+<title>Capital Data</title>
 <!-- centro: 24,24 -->
 <!-- 8 nodos perimetrales en forma cuadrada -->
 <!-- esquinas: 6,6 | 42,6 | 42,42 | 6,42 -->
@@ -268,13 +268,13 @@
 <circle cx="24" cy="24" r="7"   fill="#0a0a0a" stroke="#c8ff00" stroke-width="1.5"/>
 <circle cx="24" cy="24" r="3.5" fill="#1a3fff"/>
 <circle cx="24" cy="24" r="1.5" fill="#c8ff00"/>
-</svg></span>Capital IA</a>  <a href="index.html" style="font-family:'SF Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,242,235,.35);text-decoration:none">&larr; Volver</a></nav>
+</svg></span>Capital Data</a>  <a href="index.html" style="font-family:'SF Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,242,235,.35);text-decoration:none">&larr; Volver</a></nav>
 <div style="height:44px"></div>
 
 <div id="app">
   <div id="sidebar">
     <div id="brandBar">
-      <div class="logo">Capital IA</div>
+      <div class="logo">Capital Data</div>
       <div class="tool-tag">Herramienta interna</div>
     </div>
     <div id="headWrap">
@@ -399,7 +399,7 @@ document.getElementById('playBtn').addEventListener('click', (e)=>{
   }
 });
 
-// ---------- color scale: crema -> azul -> negro (paleta Capital IA) ----------
+// ---------- color scale: crema -> azul -> negro (paleta Capital Data) ----------
 function lerpColor(a, b, t){
   const ah = a.match(/\w\w/g).map(x=>parseInt(x,16));
   const bh = b.match(/\w\w/g).map(x=>parseInt(x,16));
